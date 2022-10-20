@@ -50,7 +50,7 @@ Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan pe
 ```
 git commit -m "simpan1"
 ```
-![Gambar8](gambar/git7.png)
+![Gambar8](gambar/ica8.png)
 
 ## MEMBUAT REPOSITORY SERVER
 Server repository yang akan digunakan adalah
@@ -59,12 +59,12 @@ https://github.com
 ```
 Kalian harus membuat akun terlebih dahulu.
 Pada laman github, klik tombol start a project, atau dari menu (icon +) klik New Repository
-![Gambar9](gambar/git8.png)
+![Gambar9](gambar/ica9.png)
 
 ## MEMBUAT REPOSITORY SERVER
-Isi nama repositorynya, misal:dewi1.
+Isi nama repositorynya, misal:nomnom.
 Lalu klik tombol Create repository
-![Gambar10](gambar/git9.png)
+![Gambar10](gambar/ica10.png)
 
 ## MENAMBAHKAN REMOTE REPOSITORY
 Remote Repository merupakan repository server yang akan digunakan untuk menyimpan setiap perubahan pada local repository, sehingga dapat diakses oleh banyak user.
@@ -73,14 +73,14 @@ untuk menambahkan remote repository server, gunakan perintah
 git remote add origin [url]
 git remote add origin https://github.com/nisanst11/icanst.git
 ```
-![Gambar11](gambar/git10.png)
+![Gambar11](gambar/ica11.png)
 
 ## MENGIRIM PERUBAHAN KE SERVER (PUSH)
 Untuk mengirim perubahan pada local repository ke server gunakan perintah git push.
 ```
 git push -u origin master
 ```
-![Gambar12](gambar/git11.png)
+![Gambar12](gambar/ica12.png)
 
 perintah ini akan meminta memasukkan username dan password pada akun github.com
 
@@ -89,4 +89,4 @@ Untuk melakukan cloning,gunakan perintah :
 ```
 git clone [url]
 ```
-![Gambar13](gambar/)
+![Gambar13](gambar/ica13.png)
